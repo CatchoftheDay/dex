@@ -1,0 +1,15 @@
+apiVersion: v1
+description: Helm chart to deploy OIDC stack for Kubernetes auth, with forked Dex to pass through groups
+keywords:
+- kubernetes
+- oidc
+- openid
+- keycloak
+- loginapp
+maintainers:
+- email: stephen.hallett@catch.com.au
+  name: Stephen Hallett
+- email: flav.hardy@gmail.com
+  name: fydrah
+name: kube-oidc
+version: 1.0.0
